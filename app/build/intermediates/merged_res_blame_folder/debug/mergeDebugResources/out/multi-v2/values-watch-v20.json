@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.miapp.Beiman.app-mergeDebugResources-67:/values-watch-v20/values-watch-v20.xml",
+            "map": [
+                {
+                    "source": "/Users/juanlopezmarin/.gradle/caches/8.10.2/transforms/50881aa818c9362c14e5d3a222ef6d84/transformed/appcompat-1.6.1/res/values-watch-v20/values-watch-v20.xml",
+                    "from": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,214,385",
+                        "endLines": "4,7,10",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "209,380,553"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,182 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.miapp.Beiman"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="35" />
+10
+11    <!-- Permisos necesarios -->
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/juanlopezmarin/AndroidStudioProjects/App_Fichajes_WebView-Beiman/app/src/main/AndroidManifest.xml:6:5-67
+12-->/Users/juanlopezmarin/AndroidStudioProjects/App_Fichajes_WebView-Beiman/app/src/main/AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+13-->/Users/juanlopezmarin/AndroidStudioProjects/App_Fichajes_WebView-Beiman/app/src/main/AndroidManifest.xml:7:5-79
+13-->/Users/juanlopezmarin/AndroidStudioProjects/App_Fichajes_WebView-Beiman/app/src/main/AndroidManifest.xml:7:22-76
+14    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+14-->/Users/juanlopezmarin/AndroidStudioProjects/App_Fichajes_WebView-Beiman/app/src/main/AndroidManifest.xml:8:5-81
+14-->/Users/juanlopezmarin/AndroidStudioProjects/App_Fichajes_WebView-Beiman/app/src/main/AndroidManifest.xml:8:22-78
+15
+16    <permission
+16-->[androidx.core:core:1.13.1] /Users/juanlopezmarin/.gradle/caches/8.10.2/transforms/2ef8e14ba4008fbf00293c4f24058284/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+17        android:name="com.miapp.Beiman.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+17-->[androidx.core:core:1.13.1] /Users/juanlopezmarin/.gradle/caches/8.10.2/transforms/2ef8e14ba4008fbf00293c4f24058284/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+18        android:protectionLevel="signature" />
+18-->[androidx.core:core:1.13.1] /Users/juanlopezmarin/.gradle/caches/8.10.2/transforms/2ef8e14ba4008fbf00293c4f24058284/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+19
+20    <uses-permission android:name="com.miapp.Beiman.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+20-->[androidx.core:core:1.13.1] /Users/juanlopezmarin/.gradle/caches/8.10.2/transforms/2ef8e14ba4008fbf00293c4f24058284/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+20-->[androidx.core:core:1.13.1] /Users/juanlopezmarin/.gradle/caches/8.10.2/transforms/2ef8e14ba4008fbf00293c4f24058284/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+21
+22    <application
+22-->/Users/juanlopezmarin/AndroidStudioProjects/App_Fichajes_WebView-Beiman/app/src/main/AndroidManifest.xml:10:5-43:19
+23        android:allowBackup="true"
+23-->/Users/juanlopezmarin/AndroidStudioProjects/App_Fichajes_WebView-Beiman/app/src/main/AndroidManifest.xml:11:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.13.1] /Users/juanlopezmarin/.gradle/caches/8.10.2/transforms/2ef8e14ba4008fbf00293c4f24058284/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+25        android:dataExtractionRules="@xml/data_extraction_rules"
+25-->/Users/juanlopezmarin/AndroidStudioProjects/App_Fichajes_WebView-Beiman/app/src/main/AndroidManifest.xml:12:9-65
+26        android:debuggable="true"
+27        android:extractNativeLibs="false"
+28        android:fullBackupContent="@xml/backup_rules"
+28-->/Users/juanlopezmarin/AndroidStudioProjects/App_Fichajes_WebView-Beiman/app/src/main/AndroidManifest.xml:13:9-54
+29        android:icon="@mipmap/ic_launcher"
+29-->/Users/juanlopezmarin/AndroidStudioProjects/App_Fichajes_WebView-Beiman/app/src/main/AndroidManifest.xml:14:9-43
+30        android:label="@string/app_name"
+30-->/Users/juanlopezmarin/AndroidStudioProjects/App_Fichajes_WebView-Beiman/app/src/main/AndroidManifest.xml:17:9-41
+31        android:networkSecurityConfig="@xml/network_security_config"
+31-->/Users/juanlopezmarin/AndroidStudioProjects/App_Fichajes_WebView-Beiman/app/src/main/AndroidManifest.xml:16:9-69
+32        android:roundIcon="@mipmap/ic_launcher_round"
+32-->/Users/juanlopezmarin/AndroidStudioProjects/App_Fichajes_WebView-Beiman/app/src/main/AndroidManifest.xml:18:9-54
+33        android:supportsRtl="true"
+33-->/Users/juanlopezmarin/AndroidStudioProjects/App_Fichajes_WebView-Beiman/app/src/main/AndroidManifest.xml:19:9-35
+34        android:testOnly="true"
+35        android:theme="@style/Theme.Kairos24h"
+35-->/Users/juanlopezmarin/AndroidStudioProjects/App_Fichajes_WebView-Beiman/app/src/main/AndroidManifest.xml:20:9-47
+36        android:usesCleartextTraffic="true" >
+36-->/Users/juanlopezmarin/AndroidStudioProjects/App_Fichajes_WebView-Beiman/app/src/main/AndroidManifest.xml:15:9-44
+37
+38        <!-- Declaración de la actividad MainActivity -->
+39        <activity
+39-->/Users/juanlopezmarin/AndroidStudioProjects/App_Fichajes_WebView-Beiman/app/src/main/AndroidManifest.xml:24:9-34:20
+40            android:name="com.miapp.Beiman.MainActivity"
+40-->/Users/juanlopezmarin/AndroidStudioProjects/App_Fichajes_WebView-Beiman/app/src/main/AndroidManifest.xml:25:13-57
+41            android:exported="true"
+41-->/Users/juanlopezmarin/AndroidStudioProjects/App_Fichajes_WebView-Beiman/app/src/main/AndroidManifest.xml:26:13-36
+42            android:screenOrientation="portrait"
+42-->/Users/juanlopezmarin/AndroidStudioProjects/App_Fichajes_WebView-Beiman/app/src/main/AndroidManifest.xml:28:13-49
+43            android:theme="@style/Theme.Kairos24h" > <!-- Bloquea la orientación en vertical -->
+43-->/Users/juanlopezmarin/AndroidStudioProjects/App_Fichajes_WebView-Beiman/app/src/main/AndroidManifest.xml:27:13-51
+44            <intent-filter>
+44-->/Users/juanlopezmarin/AndroidStudioProjects/App_Fichajes_WebView-Beiman/app/src/main/AndroidManifest.xml:30:13-33:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->/Users/juanlopezmarin/AndroidStudioProjects/App_Fichajes_WebView-Beiman/app/src/main/AndroidManifest.xml:31:17-69
+45-->/Users/juanlopezmarin/AndroidStudioProjects/App_Fichajes_WebView-Beiman/app/src/main/AndroidManifest.xml:31:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->/Users/juanlopezmarin/AndroidStudioProjects/App_Fichajes_WebView-Beiman/app/src/main/AndroidManifest.xml:32:17-77
+47-->/Users/juanlopezmarin/AndroidStudioProjects/App_Fichajes_WebView-Beiman/app/src/main/AndroidManifest.xml:32:27-74
+48            </intent-filter>
+49        </activity>
+50
+51        <!-- Declaración de la actividad Fichar con orientación fija en vertical -->
+52        <activity
+52-->/Users/juanlopezmarin/AndroidStudioProjects/App_Fichajes_WebView-Beiman/app/src/main/AndroidManifest.xml:37:9-41:20
+53            android:name="com.miapp.Beiman.Fichar"
+53-->/Users/juanlopezmarin/AndroidStudioProjects/App_Fichajes_WebView-Beiman/app/src/main/AndroidManifest.xml:38:13-51
+54            android:screenOrientation="portrait" > <!-- Bloquea la orientación en vertical -->
+54-->/Users/juanlopezmarin/AndroidStudioProjects/App_Fichajes_WebView-Beiman/app/src/main/AndroidManifest.xml:39:13-49
+55        </activity>
+56        <activity
+56-->[com.google.android.gms:play-services-base:18.5.0] /Users/juanlopezmarin/.gradle/caches/8.10.2/transforms/c501f7d2bb46e343ddd6313f3d614196/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:9-173
+57            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+57-->[com.google.android.gms:play-services-base:18.5.0] /Users/juanlopezmarin/.gradle/caches/8.10.2/transforms/c501f7d2bb46e343ddd6313f3d614196/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:19-85
+58            android:exported="false"
+58-->[com.google.android.gms:play-services-base:18.5.0] /Users/juanlopezmarin/.gradle/caches/8.10.2/transforms/c501f7d2bb46e343ddd6313f3d614196/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:146-170
+59            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+59-->[com.google.android.gms:play-services-base:18.5.0] /Users/juanlopezmarin/.gradle/caches/8.10.2/transforms/c501f7d2bb46e343ddd6313f3d614196/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:86-145
+60
+61        <meta-data
+61-->[com.google.android.gms:play-services-basement:18.4.0] /Users/juanlopezmarin/.gradle/caches/8.10.2/transforms/5efcf0c619d9010d4c3c1f4727ac6786/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:9-122
+62            android:name="com.google.android.gms.version"
+62-->[com.google.android.gms:play-services-basement:18.4.0] /Users/juanlopezmarin/.gradle/caches/8.10.2/transforms/5efcf0c619d9010d4c3c1f4727ac6786/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:20-65
+63            android:value="@integer/google_play_services_version" />
+63-->[com.google.android.gms:play-services-basement:18.4.0] /Users/juanlopezmarin/.gradle/caches/8.10.2/transforms/5efcf0c619d9010d4c3c1f4727ac6786/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:66-119
+64
+65        <provider
+65-->[androidx.emoji2:emoji2:1.3.0] /Users/juanlopezmarin/.gradle/caches/8.10.2/transforms/ddbc0f1c716ac56961776b087fcbd3d3/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+66            android:name="androidx.startup.InitializationProvider"
+66-->[androidx.emoji2:emoji2:1.3.0] /Users/juanlopezmarin/.gradle/caches/8.10.2/transforms/ddbc0f1c716ac56961776b087fcbd3d3/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+67            android:authorities="com.miapp.Beiman.androidx-startup"
+67-->[androidx.emoji2:emoji2:1.3.0] /Users/juanlopezmarin/.gradle/caches/8.10.2/transforms/ddbc0f1c716ac56961776b087fcbd3d3/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+68            android:exported="false" >
+68-->[androidx.emoji2:emoji2:1.3.0] /Users/juanlopezmarin/.gradle/caches/8.10.2/transforms/ddbc0f1c716ac56961776b087fcbd3d3/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+69            <meta-data
+69-->[androidx.emoji2:emoji2:1.3.0] /Users/juanlopezmarin/.gradle/caches/8.10.2/transforms/ddbc0f1c716ac56961776b087fcbd3d3/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+70                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+70-->[androidx.emoji2:emoji2:1.3.0] /Users/juanlopezmarin/.gradle/caches/8.10.2/transforms/ddbc0f1c716ac56961776b087fcbd3d3/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+71                android:value="androidx.startup" />
+71-->[androidx.emoji2:emoji2:1.3.0] /Users/juanlopezmarin/.gradle/caches/8.10.2/transforms/ddbc0f1c716ac56961776b087fcbd3d3/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+72            <meta-data
+72-->[androidx.lifecycle:lifecycle-process:2.8.7] /Users/juanlopezmarin/.gradle/caches/8.10.2/transforms/08514c7eb243dff3d663cf271610776d/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:29:13-31:52
+73                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+73-->[androidx.lifecycle:lifecycle-process:2.8.7] /Users/juanlopezmarin/.gradle/caches/8.10.2/transforms/08514c7eb243dff3d663cf271610776d/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:30:17-78
+74                android:value="androidx.startup" />
+74-->[androidx.lifecycle:lifecycle-process:2.8.7] /Users/juanlopezmarin/.gradle/caches/8.10.2/transforms/08514c7eb243dff3d663cf271610776d/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:31:17-49
+75            <meta-data
+75-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/juanlopezmarin/.gradle/caches/8.10.2/transforms/4cded6175ff0119f9bc091a016f2f229/transformed/profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
+76                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+76-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/juanlopezmarin/.gradle/caches/8.10.2/transforms/4cded6175ff0119f9bc091a016f2f229/transformed/profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
+77                android:value="androidx.startup" />
+77-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/juanlopezmarin/.gradle/caches/8.10.2/transforms/4cded6175ff0119f9bc091a016f2f229/transformed/profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
+78        </provider>
+79
+80        <activity
+80-->[androidx.compose.ui:ui-tooling-android:1.7.8] /Users/juanlopezmarin/.gradle/caches/8.10.2/transforms/2106cc4bcae93d5d44c21218e67d1bfd/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
+81            android:name="androidx.compose.ui.tooling.PreviewActivity"
+81-->[androidx.compose.ui:ui-tooling-android:1.7.8] /Users/juanlopezmarin/.gradle/caches/8.10.2/transforms/2106cc4bcae93d5d44c21218e67d1bfd/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
+82            android:exported="true" />
+82-->[androidx.compose.ui:ui-tooling-android:1.7.8] /Users/juanlopezmarin/.gradle/caches/8.10.2/transforms/2106cc4bcae93d5d44c21218e67d1bfd/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
+83
+84        <receiver
+84-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/juanlopezmarin/.gradle/caches/8.10.2/transforms/4cded6175ff0119f9bc091a016f2f229/transformed/profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
+85            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+85-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/juanlopezmarin/.gradle/caches/8.10.2/transforms/4cded6175ff0119f9bc091a016f2f229/transformed/profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
+86            android:directBootAware="false"
+86-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/juanlopezmarin/.gradle/caches/8.10.2/transforms/4cded6175ff0119f9bc091a016f2f229/transformed/profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
+87            android:enabled="true"
+87-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/juanlopezmarin/.gradle/caches/8.10.2/transforms/4cded6175ff0119f9bc091a016f2f229/transformed/profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
+88            android:exported="true"
+88-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/juanlopezmarin/.gradle/caches/8.10.2/transforms/4cded6175ff0119f9bc091a016f2f229/transformed/profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
+89            android:permission="android.permission.DUMP" >
+89-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/juanlopezmarin/.gradle/caches/8.10.2/transforms/4cded6175ff0119f9bc091a016f2f229/transformed/profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
+90            <intent-filter>
+90-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/juanlopezmarin/.gradle/caches/8.10.2/transforms/4cded6175ff0119f9bc091a016f2f229/transformed/profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
+91                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+91-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/juanlopezmarin/.gradle/caches/8.10.2/transforms/4cded6175ff0119f9bc091a016f2f229/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
+91-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/juanlopezmarin/.gradle/caches/8.10.2/transforms/4cded6175ff0119f9bc091a016f2f229/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
+92            </intent-filter>
+93            <intent-filter>
+93-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/juanlopezmarin/.gradle/caches/8.10.2/transforms/4cded6175ff0119f9bc091a016f2f229/transformed/profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
+94                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+94-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/juanlopezmarin/.gradle/caches/8.10.2/transforms/4cded6175ff0119f9bc091a016f2f229/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
+94-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/juanlopezmarin/.gradle/caches/8.10.2/transforms/4cded6175ff0119f9bc091a016f2f229/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
+95            </intent-filter>
+96            <intent-filter>
+96-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/juanlopezmarin/.gradle/caches/8.10.2/transforms/4cded6175ff0119f9bc091a016f2f229/transformed/profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
+97                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+97-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/juanlopezmarin/.gradle/caches/8.10.2/transforms/4cded6175ff0119f9bc091a016f2f229/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
+97-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/juanlopezmarin/.gradle/caches/8.10.2/transforms/4cded6175ff0119f9bc091a016f2f229/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
+98            </intent-filter>
+99            <intent-filter>
+99-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/juanlopezmarin/.gradle/caches/8.10.2/transforms/4cded6175ff0119f9bc091a016f2f229/transformed/profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
+100                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+100-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/juanlopezmarin/.gradle/caches/8.10.2/transforms/4cded6175ff0119f9bc091a016f2f229/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
+100-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/juanlopezmarin/.gradle/caches/8.10.2/transforms/4cded6175ff0119f9bc091a016f2f229/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:25-92
+101            </intent-filter>
+102        </receiver>
+103    </application>
+104
+105</manifest>
