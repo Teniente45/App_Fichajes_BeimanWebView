@@ -22,7 +22,7 @@
 
         <!-- Declaración de la actividad MainActivity -->
         <activity
-            android:name="com.miapp.Beiman.MainActivity"
+            android:name="com.miapp.beiman.MainActivity"
             android:exported="true"
             android:theme="@style/Theme.Kairos24h"
             android:screenOrientation="portrait"
@@ -35,7 +35,7 @@
 
         <!-- Declaración de la actividad Fichar con orientación fija en vertical -->
         <activity
-            android:name="com.miapp.Beiman.Fichar"
+            android:name="com.miapp.beiman.Fichar"
             android:screenOrientation="portrait"
             tools:ignore="DiscouragedApi"> <!-- Bloquea la orientación en vertical -->
         </activity>

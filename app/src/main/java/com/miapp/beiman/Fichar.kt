@@ -1,6 +1,6 @@
 @file:Suppress("UNUSED_EXPRESSION")
 
-package com.miapp.Beiman
+package com.miapp.beiman
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -35,8 +35,9 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.viewinterop.AndroidView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
-import com.miapp.Beiman.enlaces_internos.AuthManager
-import com.miapp.Beiman.enlaces_internos.WebViewURL
+import com.miapp.beiman.R
+import com.miapp.beiman.enlaces_internos.AuthManager
+import com.miapp.beiman.enlaces_internos.WebViewURL
 import kotlinx.coroutines.delay
 
 class Fichar : ComponentActivity() {

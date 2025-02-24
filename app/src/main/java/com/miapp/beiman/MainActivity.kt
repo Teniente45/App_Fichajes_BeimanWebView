@@ -1,4 +1,4 @@
-package com.miapp.Beiman
+package com.miapp.beiman
 
 import android.content.Intent
 import android.os.Bundle
@@ -23,8 +23,9 @@ import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.compose.*
-import com.miapp.Beiman.enlaces_internos.AuthManager
-import com.miapp.Beiman.enlaces_internos.WebViewURL
+import com.miapp.beiman.R
+import com.miapp.beiman.enlaces_internos.AuthManager
+import com.miapp.beiman.enlaces_internos.WebViewURL
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 
